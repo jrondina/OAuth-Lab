@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/harold"
+            android:src="@mipmap/harold1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide The Pain, Harold!"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/check"
+        android:layout_gravity="left|bottom"
+        android:src="@android:drawable/checkbox_on_background"
+        android:padding="8dp" />
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/say"
+        android:layout_gravity="left|bottom"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:padding="8dp" />
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/next"
+        android:layout_gravity="left|bottom"
+        android:src="@android:drawable/ic_media_next"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="160dp"
+        android:text="23 Likes"
+        android:textAlignment="center" />
+</LinearLayout>
+
+</FrameLayout>
